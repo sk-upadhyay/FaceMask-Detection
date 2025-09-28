@@ -9,7 +9,7 @@ face_detector = MTCNN()
 
 # Load the mask detection model
 try:
-    classifier = load_model(r'C:\Users\KIIT\Desktop\AD-Lab\FaceMask-Detection\mask_detector.keras')
+    classifier = load_model('mask_detector.keras')
     print("Model loaded successfully.")
 except Exception as e:
     print(f"Error loading model: {e}")
