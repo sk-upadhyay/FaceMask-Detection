@@ -84,5 +84,3 @@ python main.py
 - Optimize for mobile deployment
 - Add audio alerts or logging
 
-## License
-[Add license if applicable]
